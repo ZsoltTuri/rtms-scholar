@@ -13,6 +13,7 @@ Its coverage is restricted to:
 
 We exclude studies:
 - magnetic seizure therapy
+- peripheral (extracephalic) rTMS studies
 
 ### What is the motivation of rTMS scholar?
 
