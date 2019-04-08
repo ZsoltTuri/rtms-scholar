@@ -34,10 +34,10 @@ The development of rTMS scholar started in December 2018. rTMS scholar is under 
 - Zsolt Turi: 
   - conceptualization of rTMS scholar
   - developing the organization system for rTMS-related information
-	- developing the organization system for EEG-related information
-	- coordinating the development of rTMS scholar
-	- coordinating the data input to rTMS scholar
-	- initial R implementation
+  - developing the organization system for EEG-related information
+  - coordinating the development of rTMS scholar
+  - coordinating the data input to rTMS scholar
+  - initial R implementation
 - Matthias Mittner: 
 	- developing the organization system for fMRI-related information
 	- coordinating the data input to rTMS scholar in Tromsø, Norway
