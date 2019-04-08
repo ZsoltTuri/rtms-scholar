@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+## Welcome rTMS-scholar
 
-You can use the [editor on GitHub](https://github.com/ihrke/rtms-scholar/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is the home of `rTMS-scholar`, a comprehensive database for scholarly literature on repetitive transcranial magnetic stimulation (rTMS).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### What is rTMS scholar?
 
-### Markdown
+rTMS scholar is a database for scholarly literature about repetitive transcranial magnetic stimulation. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Its coverage is restricted to:
+- rTMS studies, where repetition rate ≥ 1 Hz
+- experiments performed on human participants (both healthy and patients)
+- peer-reviewed articles that can be identified via PubMed
 
-```markdown
-Syntax highlighted code block
+We exclude studies:
+- magnetic seizure therapy
 
-# Header 1
-## Header 2
-### Header 3
+### What is the motivation of rTMS scholar?
 
-- Bulleted
-- List
+The main motivation of rTMS scholar is to organize the methodological information from peer-reviewed articles that investigate the motor, cognitive, affective, electrophysiological and neurophysiological effects and aftereffects of various forms of rTMS including patterned protocols such as theta burst stimulation (TBS). rTMS scholar aims to facilitate rTMS research by providing a better methodological overview about the increasing number of rTMS studies. 
 
-1. Numbered
-2. List
+### How can rTMS scholar facilitate research? 
 
-**Bold** and _Italic_ and `Code` text
+Every study is a unique work on its own. However, peer-reviewed rTMS articles share - to some extent - common features, parameters and practices, according to which they can be organized. rTMS scholar allows researchers to gain an overview about wide range of methodological parameters used in the rTMS literature. 
 
-[Link](url) and ![Image](src)
-```
+### Implementation of rTMS scholar
+The rTMS scholar is implemented in R, library ProjectTemplate: http://projecttemplate.net/getting_started.html
+Each module has a data folder. Each article is associated with an excel sheet (XLSX format) and stored in a particular module folder. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Status of rTMS scholar
+The development of rTMS scholar started in December 2018. rTMS scholar is under intense development at the moment.
 
-### Jekyll Themes
+### Contributors of TMS scholar
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ihrke/rtms-scholar/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Zsolt Turi: 
+  - conceptualization of rTMS scholar
+  - developing the organization system for rTMS-related information
+	- developing the organization system for EEG-related information
+	- coordinating the development of rTMS scholar
+	- coordinating the data input to rTMS scholar
+	- initial R implementation
+- Matthias Mittner: 
+	- developing the organization system for fMRI-related information
+	- coordinating the data input to rTMS scholar in Tromsø, Norway
+	- R implementation 
+- Gábor Csifcsák
+	- developing the organization system for rTMS-related information
+	- developing the organization system for EEG-related information
+	- coordinating the data input to rTMS scholar in Tromsø, Norway
+- Alberto Pisoni
+	- developing the organization system for EEG-related information
+	- coordinating the data input of rTMS scholar in Milan, Italy
 
-### Support or Contact
+### Contact information
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Zsolt Turi: zsoltturi@gmail.com
